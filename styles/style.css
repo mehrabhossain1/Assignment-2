@@ -3,6 +3,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
 .btn-primary {
     color: #FFFFFF;
     background: #FF900E;
@@ -20,7 +26,7 @@
 
 }
 
-.nav-title {
+.h2 {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
@@ -73,19 +79,21 @@
 
 
 /* features style starts*/
-.features{
+.features {
     display: flex;
     gap: 70px;
     justify-content: center;
     align-items: center;
     margin-top: 85px;
 }
-.features-img{
+
+.features-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    
+
 }
+
 .features-title {
     font-weight: 700;
     font-size: 45px;
@@ -96,3 +104,140 @@
     font-size: 16px;
     color: #727272;
 }
+
+
+
+.features-2 {
+    display: flex;
+    margin-top: 130px;
+    gap: 50px;
+}
+
+.features-title-2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.features-title-2 .features-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.box {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 30px;
+}
+
+.btn-big {
+    width: 300px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 40px;
+
+    color: #FFFFFF;
+    margin-top: -110px;
+    margin-left: -85px;
+}
+
+.big-btn-h {
+    margin-top: -2px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.big-btn-desc {
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.img {
+    position: relative;
+    z-index: -1;
+}
+
+/* features styles end */
+
+
+/* facts style starts */
+.section-info {
+    margin-top: 130px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+
+
+/* facts style end */
+
+
+/* sponsors style starts */
+
+.sponsors {
+    margin-top: 180px;
+    text-align: center;
+
+}
+
+.sponsors .h2 {
+    margin-bottom: 24px;
+}
+
+.sponsors-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* sponsors style end */
+
+/* footer */
+.footer {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: auto;
+    height: 100px;
+    margin-top: 130px;
+}
+
+.footer-text {
+    padding-top: 40px;
+}
+
+/* footer end */
+
+
+@media screen and (max-width: 576px) {}
